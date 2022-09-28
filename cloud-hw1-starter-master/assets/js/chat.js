@@ -27,7 +27,7 @@ $(document).ready(function() {
 
   function callChatbotApi(message) {
     // params, body, additionalParams
-    return apigClientFactory.newClient.message({}, {
+    return apigClientFactory.newClient().chatbotPost({}, {
       messages: [{
         type: 'unstructured',
         unstructured: {
