@@ -88,7 +88,7 @@ def search(cuisine):
 def get_restaurant_data(ids):
     dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
     table = dynamodb.Table('yelp-restaurants')
-    ans = 'Hi! Here are our recommendations: \n\r'
+    ans = '<p> Hi! Here are our recommendations: </p>'
     i = 1
     
     for id in ids:
@@ -105,7 +105,7 @@ def get_restaurant_data(ids):
             restaurant_address = response_item['address']
             restaurant_phoneNumber = response_item['phone_number']
             restaurant_rating = response_item['rating']
-            ans += "{}. {}, with {} stars, located at {}, you can contact them with phone number: {} \n\r".format(i, restaurant_name, restaurant_rating, restaurant_address,restaurant_phoneNumber)
+            ans += "<p>{}. {}, with {} stars, located at {}, you can contact them with phone number: {} </p>".format(i, restaurant_name, restaurant_rating, restaurant_address,restaurant_phoneNumber)
             # return ans
             i += 1
         else:
