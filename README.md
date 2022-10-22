@@ -12,7 +12,12 @@ In this assignment you will implement a serverless, microservice-driven web appl
 - **6. Create an ElasticSearch instance using the AWS ElasticSearch Service.**
 - **7. Build a suggestions module, that is decoupled from the Lex chatbot.**
 
+# Example
 
+![image](https://github.com/hx2163/nyu-fall2022-cc-hw1/blob/main/pic/p1)
+![image](https://github.com/hx2163/nyu-fall2022-cc-hw1/blob/main/pic/p2)
+![image](https://github.com/hx2163/nyu-fall2022-cc-hw1/blob/main/pic/p3)
+![image](https://github.com/hx2163/nyu-fall2022-cc-hw1/blob/main/pic/p4)
 
 
 # Architecture View
