@@ -13,8 +13,8 @@ In this assignment you will implement a serverless, microservice-driven web appl
 - **7. Build a suggestions module, that is decoupled from the Lex chatbot.**
 
 # Teammates
-Jindong Du (NetID:jd4573)
-Han Xu     (NetID:hx2163)
+- Jindong Du (NetID:jd4573)
+- Han Xu     (NetID:hx2163)
 
 # Example Interaction
 
