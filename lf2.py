@@ -77,8 +77,8 @@ def search(cuisine):
             }
         }
     }
-    url = 'https://search-dining-suggestion-5b6clkpdqkqo6ruutzvb6tqseq.us-east-1.es.amazonaws.com/' + 'restaurants/Restaurant/_search'
-    data = requests.get(url, auth = ('jd4573', 'J@indong025'), json=payload).json()#.content.decode()
+    url = 'esendpointurl'
+    data = requests.get(url, auth = ('username', 'password'), json=payload).json()#.content.decode()
     #data = es.search(index="restaurants", body={"query": {"match": {'Cuisine':cuisine}}})
     print("search complete", data.get('hits').get('hits'))#['hits']['hits'])
     return data['hits']['hits']
