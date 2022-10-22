@@ -22,5 +22,4 @@ In this assignment you will implement a serverless, microservice-driven web appl
 
 
 # Architecture View
-
-image
+![image](https://github.com/hx2163/nyu-fall2022-cc-hw1/blob/main/pic/p6)
